@@ -24,6 +24,8 @@ export default function Signup() {
 
 
      console.log(data);
+
+     e.target.reset()
     }
     return (
       <form onSubmit={handleSubmit}>
